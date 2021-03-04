@@ -12,24 +12,24 @@
 进入管理后台，往下拉，可以看到图1  
 ![图1](./dest/img/小米1.png)  
 点击后进入图2  
-![图2](../dest/img/小米2.png)  
+![图2](./dest/img/小米2.png)  
   
 
 * **华为平台：**  
 进入管理后台，进入应用信息，如图1所示  
-![图1](../dest/img/华为1.png)  
+![图1](./dest/img/华为1.png)  
 点击顶部全部应用，找到Connect API 如图2所示：  
-![图2](../dest/img/华为2.png)   
+![图2](./dest/img/华为2.png)   
 进入Connect API 页面  
 如果没有API客户端则创建，如图3所示：  
-![图3](../dest/img/华为3.png)   
+![图3](./dest/img/华为3.png)   
   
 
 * **VIVO平台**  
 进入管理中心，下拉找到 开放能力->API传包，如图1：  
-![图1](../dest/img/VIVO1.png)  
+![图1](./dest/img/VIVO1.png)  
 如果没有申请Api传包权限，需要先申请，如图2：  
-![图2](../dest/img/VIVO2.png)  
+![图2](./dest/img/VIVO2.png)  
 
 ## 2.注意：
 * 必须已经配置好了java环境  
