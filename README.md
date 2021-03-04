@@ -1,6 +1,6 @@
-#使用方法
+# 使用方法
 
-##1.使用规范
+## 1.使用规范
 * 如果不想自行编译，可直接使用dest目录下的包  
 * 使用时，需要将文件放置在source文件夹内，并命名为source.apk，
   这里会根据config文件的channel值对source.apk先修改渠道名，只支持walle方式获取渠道名  
@@ -31,7 +31,7 @@
 如果没有申请Api传包权限，需要先申请，如图2：  
 ![图2]（./img/VIVO2.png）  
 
-##2.注意：
+## 2.注意：
 * 必须已经配置好了java环境  
 * 因为小米平台使用了BC库来进行加密，jar包在运行小米平台时可能会遇到  
 `java.lang.SecurityException: JCE cannot authenticate the provider BC`  
@@ -45,6 +45,7 @@
         
 * 根目录下有个`mi.dev.api.public.cer`文件，需要自行替换为在小米平台申请下载的文件，注意该文件名不能修改
 
-##3.使用：
-    java -jar ./upload.jar
+## 3.使用：  
+配置好config.json文件后，后期只需要使用以下命令执行即可  
+`java -jar ./upload.jar`
     
