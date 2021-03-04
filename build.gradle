@@ -1,0 +1,46 @@
+plugins {
+    id 'java'
+}
+
+group 'org.jeme'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    implementation group: 'org.bouncycastle', name: 'bcprov-jdk15on', version: '1.64'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.squareup.okhttp3:okhttp:4.2.2'
+    implementation 'net.dongliu:apk-parser:2.6.10'
+//    implementation 'org.apache.httpcomponents:httpcore:4.4.1'
+//    implementation group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.13'
+
+
+}
+
+test {
+    useJUnitPlatform()
+}
+tasks.withType(org.gradle.jvm.tasks.Jar) {
+    manifest {
+        attributes["Main-Class"] = "org.jeme.Main"
+    }
+
+}
+
+jar {
+    manifestContentCharset 'utf-8'
+    metadataCharset 'utf-8'
+    manifest {
+        attributes["Main-Class"] = "org.jeme.Main"
+    }
+    from {
+
+//        configurations.implementation.collect { it.isDirectory() ? it : zipTree(it) }
+        configurations.runtime.collect{zipTree(it)}
+    }
+}

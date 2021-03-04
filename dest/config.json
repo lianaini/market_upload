@@ -1,0 +1,26 @@
+{
+  "market" :{
+    "mi" : {
+      "userName" : "用户在小米平台申请的邮箱号，注意不是登录号",
+      "?accessSecret" : "自动化上传接口中的私钥",
+      "accessSecret" : "自动化上传接口中的私钥",
+      "channel" : "渠道号"
+    },
+    "vivo" : {
+      "accessKey" : "Api传包中的access_key",
+      "accessSecret" : "Api传包中的access_secret",
+      "channel" : "渠道号"
+    },
+    "hw" : {
+      "@appId" : "应用信息中的APP ID",
+      "appId" : "应用信息中的APP ID",
+      "accessKey" : "AppGallery Connect API 客户端中的客户端ID",
+      "accessSecret" : "AppGallery Connect API 客户端中的密钥",
+      "channel" : "渠道号"
+    }
+  },
+  "pushInfo" : {
+    "updateDesc" : "升级文案"
+
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "market" :{
+    "mi" : {
+      "userName" : "zhangjiaqi@novelpro.cn",
+      "accessKey" : "",
+      "accessSecret" : "betqw2xklqp4dqktc20p0ucq3y2fek3ggbqrab2cw8w9lax7em",
+      "channel" : "mi"
+    },
+    "vivo" : {
+      "accessKey" : "",
+      "accessSecret" : "",
+      "channel" : "vivo"
+    }
+  },
+  "upload_info" : {
+    "uploadDesc" : "升级文案"
+
+  }
+}

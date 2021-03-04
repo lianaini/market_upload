@@ -1,0 +1,30 @@
+{
+  "market" :{
+    "mi" : {
+      "@userName" : "用户在小米平台申请的邮箱号，注意不是登录号",
+      "userName" : "zhangjiaqi@novelpro.cn",
+      "?accessSecret" : "自动化上传接口中的私钥",
+      "accessSecret" : "a5k696urbpqsubrkqvaktzatspq4yrmrd5drek1elbxmt643fz",
+      "channel" : "mi"
+    },
+    "vivo" : {
+      "accessKey" : "20210225qu3z8r4q",
+      "accessSecret" : "1ca85c33cde3f0868bee1d9332b8ed32",
+      "channel" : "vivo"
+    },
+    "hw" : {
+      "@appId" : "应用信息中的APP ID",
+      "appId" : "103723551",
+      "?accessKey" : "注释：AppGallery Connect API 客户端中的客户端ID",
+      "accessKey" : "574387298003595648",
+      "?accessSecret" : "注释：AppGallery Connect API 客户端中的密钥",
+      "accessSecret" : "7B1875B15ACD10BED8732F7FB3EE5536C1715A1DC8B445590663A9B95F480E84",
+      "channel" : "hw"
+    }
+  },
+  "pushInfo" : {
+
+    "updateDesc" : "优化产品体验，为用户提供更精准的天气服务"
+
+  }
+}
